@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BestCalc" x:Class="BestCalc.BestCalcPage">
-	<Label Text="Hello world" VerticalOptions="Center" HorizontalOptions="Center" />
+	<StackLayout Margin="10,20,30,40" BackgroundColor="Green">
+		<Label 
+			Text="Hello world" 
+			VerticalOptions="Start" 
+			HorizontalOptions="Center" 
+			/>
+		<Label IsVisible="false"
+			Text="Hhhhh" 
+			VerticalOptions="Center" 
+			HorizontalOptions="Center"
+			/>
+		<Button Text="Click Me"/>
+	
+	</StackLayout>
+	
 </ContentPage>
